@@ -85,23 +85,45 @@
     </header>
 
     <!-- Blog Posts -->
-    <main class="max-w-4xl mx-auto">
-        <article class="bg-gray-100 rounded-xl mt-20">
+    <main class="max-w-6xl mx-auto mt-20">
+        <article class="bg-gray-100 rounded-xl">
             <!-- Blog Post Card -->
-            <div class="py-6 px-5 flex flex-wrap">
+            <div class="py-6 px-5 flex flex-wrap items-center">
+                <!-- Left side -->
                 <div class="flex-1 mr-8">
                     <img class="rounded-xl max-w-full block" src="./images/illustration-1.png"
                         alt="Blog Post Illustration">
                 </div>
-                <div class="flex-1">
+                <!-- Right side -->
+                <div class="flex-1 flex flex-col justify-between">
                     <!-- Post Tags -->
-                    <div>
+                    <div class="space-x-2">
                         <a href="#"
                             class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Techniques</a>
                         <a href="#"
                             class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold hover:bg-red-500 hover:text-white transition duration-300 ease-in-out">Techniques</a>
                     </div>
-
+                    <!-- Post title -->
+                    <div class="mt-4">
+                        <h1 class="text-3xl">This is a big title and it will look greate on two or even three lines. Wooohoo!</h1>
+                        <span class="mt-2 block text-gray-400 text-xs">Published <time>1 day ago</time></span>
+                    </div>
+                    <!-- Post content -->
+                    <div class="text-sm mt-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto doloremque corporis ea consequatur voluptatibus ut aut! Esse, quaerat cumque rerum est</p>
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eius optio mollitia, velit doloremque deserunt.</p>
+                    </div>
+                    <!-- Post footer -->
+                    <div class="flex justify-between items-center mt-8">
+                        <div class="flex items-center text-sm">
+                            <img src="./images/lary-avatar.svg" alt="Larry avatar">
+                            <div class="ml-3">
+                                <h5 class="font-bold">Lary Laracore</h5>
+                                <h6>Mascot at Laracasts</h6>
+                            </div>
+                        </div>
+                        <a class="text-center text-xs font-semibold bg-gray-200 rounded-full py-2 px-8 hover:bg-gray-300 transition duration-300 ease-in-out" href="#">Read more</a>
+                    </div>
                 </div>
             </div>
         </article>
