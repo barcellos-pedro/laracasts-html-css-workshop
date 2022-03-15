@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Laravel From Scratch Blog</title>
+</head>
+
+<body style="font-family: Open Sans, sans-serif;" class="px-6 py-8">
+    <nav class="flex flex-col items-center md:flex-row justify-between">
+        <div>
+            <img src="./images/logo.svg" alt="Laracasts Logo" width="165" height="16">
+        </div>
+        <div class="mt-8 md:mt-0">
+            <a href="/" class="text-xs font-bold uppercase">Home page</a>
+            <a href="#"
+                class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">Subscribe
+                <span class="hidden md:inline-block">for updates</span></a>
+        </div>
+    </nav>
+
+    <!-- Post -->
+    <main class="max-w-6xl mx-auto mt-20">
+        <article class="relative md:grid grid-cols-12 gap-x-12">
+            <!-- Left side -->
+            <div class="col-span-4 flex flex-col items-center">
+                <img style="max-width: 300px;" class="block rounded-xl" src="./images/illustration-1.png"
+                    alt="Post image">
+                <p class="my-3 block text-center text-gray-400 text-xs">Published <time>1 day ago</time></p>
+                <div class="flex justify-center items-center text-sm">
+                    <img src="./images/lary-avatar.svg" alt="Larry avatar">
+                    <div class="ml-3">
+                        <h5 class="font-bold">Lary Laracore</h5>
+                        <h6>Mascot at Laracasts</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Right side -->
+            <div class="col-span-8">
+                <!-- Go back and Tags -->
+                <div class="flex justify-between mt-6 md:mt-0">
+                    <div style="cursor: pointer;"
+                        class="relative flex justify-between items-center text-gray-500 font-semibold hover:text-gray-600">
+                        <svg style="pointer-events: none; transform: rotate(-270deg);"
+                            class="absolute bi bi-chevron-down" xmlns="http://www.w3.org/2000/svg" width="19"
+                            height="19" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                        <a class="ml-8" href="#">Back to Posts</a>
+                    </div>
+                    <div class="space-x-2">
+                        <a href="#"
+                            class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">Techniques</a>
+                        <a href="#"
+                            class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold hover:bg-red-500 hover:text-white transition duration-300 ease-in-out">Techniques</a>
+                    </div>
+                </div>
+                <!-- Content -->
+                <h5 class="font-bold text-4xl my-8">This is a big title and it will look greate on two or even three lines. Wooohoo!
+                </h5>
+
+                <div class="space-y-3">
+                    <p>orem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, laborum sed asperiores temporibus</p>
+                    <p>eprehenderit non earum quisquam ullam totam modi fugiat blanditiis eveniet, vero nostrum libero</p>
+                    <p>olestiae, tempora laboriosam vitae.</p>
+                    <p>electus sit maxime expedita adipisci aut voluptate laudantium facere dolorum culpa omnis nobis</p>
+                    <p>oluptas deserunt sunt laboriosam ullam, tempore doloribus dicta iure et at ipsum. Dolorum sapiente</p>
+                    <p>ccusantium rem laborum.</p>
+                    <p>ihil at recusandae quos nesciunt pariatur ad aut maxime, odit sequi eos ipsa reprehenderit</p>
+                    <p>ollitia, error quam excepturi soluta. Error, nihil esse aperiam eligendi iure aliquid architecto</p>
+                    <p>usto ullam. Magnam.</p>
+                    <p>unt impedit, ullam nulla sequi modi, atque reprehenderit mollitia et ut veniam, doloremque deserunt</p>
+                    <p>obis at cum. Debitis omnis dolore odit quae fuga atque. Itaque laudantium inventore nulla nam eos!</p>
+                    <p>veniet quisquam quod sint quam excepturi optio a ad mollitia ea perspiciatis veniam impedit,</p>
+                    <p>landitiis accusantium fugiat in harum voluptatibus qui. Repellat debitis assumenda non at mollitia</p>
+                    <h2 class="font-bold text-lg">ed perspiciatis neque?</h2>
+                    <p>psam nobis distinctio placeat eius sequi nemo, enim tempore nam porro consequatur aspernatur,</p>
+                    <p>liquam numquam culpa repellat illo inventore a illum reprehenderit quaerat esse consectetur vel</p>
+                    <p>ulla magnam! Maxime, ipsam.</p>
+                    <p>olestias enim iure consectetur inventore consequatur aliquam, similique doloribus corporis,</p>
+                    <p>rovident eveniet quibusdam culpa repellendus laudantium error numquam. Enim provident nulla ab.</p>
+                    <p>empora dignissimos minus, deleniti dolor voluptates fugit voluptatibus!</p>
+                    <p>ucimus omnis nostrum saepe exercitationem sequi? Laboriosam quod sint molestiae quae voluptatem</p>
+                    <p>oluta cum optio a magni, dolore neque error quas ducimus officia corporis exercitationem maxime</p>
+                    <p>itae deleniti natus excepturi!</p>
+                    <p>utem officiis aliquid sapiente unde quia quos error veniam voluptates. Aperiam, accusantium odit</p>
+                    <p>istinctio, cum, aut tenetur porro eos nobis totam repellendus rem itaque soluta obcaecati</p>
+                    <p>oluptates provident reiciendis sunt.</p>
+                    <p>nde, quo deserunt molestiae architecto eos alias nam repudiandae repellat ipsa aliquam quia esse</p>
+                    <p>llo odio consectetur amet inventore molestias atque impedit, recusandae optio voluptatem et</p>
+                    <p>dipisci. Eligendi, aperiam laudantium.</p>
+                    <p>ed laboriosam doloribus earum, sint enim architecto cum porro recusandae minima commodi? Labore,</p>
+                    <p>am aperiam vitae nulla quos dolore culpa, perferendis reiciendis suscipit, ipsam cum repellat fugit</p>
+                    <p>uo maxime nihil.</p>
+                    <p>ecusandae animi laborum quasi ab rem obcaecati repellendus! Exercitationem, nobis beatae id</p>
+                    <p>ssumenda quis laborum fuga, vero iste commodi possimus cumque eligendi itaque consequatur rem</p>
+                    <p>ulla, ratione modi necessitatibus accusantium.</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="border border-black border-opacity-5 rounded-xl text-center py-16 px-10 mt-14">
+        <img class="mx-auto max-w-full block" src="./images/lary-newsletter-icon.svg" alt="Larry Newsletter">
+        <h5 class="text-3xl">Stay in touch with the latest posts</h5>
+        <p class="text-sm mt-2">Promise to keep the inbox clean. No bugs.</p>
+        <div class="mt-10 flex justify-center">
+            <div class="inline-block rounded-full md:bg-gray-200 pl-6">
+                <form action="#" method="post" class="text-sm flex flex-col gap-3 md:flex-row items-center">
+                    <img class="hidden md:block" src="/images/mailbox-icon.svg" alt="mailbox letter">
+                    <input id="email"
+                        class="bg-transparent px-2 mx-2 text-center border-b-2 border-blue-300 md:text-left md:border-none focus:outline-none"
+                        type="email" placeholder="Your email address">
+                    <button type="submit"
+                        class="bg-blue-500 rounded-full text-xs font-semibold text-white uppercase py-3 px-8 hover:bg-blue-600 transition duration-300 ease-in-out">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
